@@ -1,5 +1,5 @@
-# Capstone-Portfolio
-ML Project
+# Capstone-Competition
+BO Blackbox Project
 Data and descriptions of functions for Bayesian optimisation competition
 ________________________________________
 The time has finally come to begin the capstone project! A quick reminder that the project consists of a Bayesian Optimisation competition. There are eight unknown functions that you will be looking to optimise. For this project, all eight of the functions should be maximized. You will only be able to query each function once every few days, so you have to make every single opportunity count! The inputs for each query are the following:
