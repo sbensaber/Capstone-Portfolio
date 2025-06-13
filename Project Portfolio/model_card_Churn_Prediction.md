@@ -57,13 +57,17 @@ Best params for Gradient Boosting: {'learning_rate': 0.1, 'max_depth': 7, 'n_est
 Best balanced Pre-tuned model between Recall and False Negatives is KNN.
 
 *Retained Models Tuned Confusion Matrix results:*
-[KNN Confusion Matrix](Tuned_KNN_CM.png)
+
+![KNN Confusion Matrix](Tuned_KNN_CM.png)
+
 Tuned KNN ROC AUC: 0.8166
 Tuned KNN Recall: 0.5775
  
 *Retained Model AUC ROC Curve:*
 I compared the two best recall model retained (KNN) to the best ROC AUC model (Gradient Boosting) to identify the tuning enhancements.
-[Retained Model AUC ROC Curve](Tuned_selected_model_ROC_AUC_Curve.png)
+
+![Retained Model AUC ROC Curve](Tuned_selected_model_ROC_AUC_Curve.png)
+
 Recall Comparison:
 Best Recall Model (Default) KNN: 0.5749
 Best Recall Model (Tuned) KNN: 0.5775
@@ -71,7 +75,9 @@ Best AUC Model (Default) Gradient Boosting: 0.5241
 Best AUC Model (Tuned) Gradient Boosting: 0.5267
 
 *Model Performance Metrics:*
- [Model Performance Metrics](Models_metrics.png)
+
+ ![Model Performance Metrics](Models_metrics.png)
+ 
 Best Threshold for Best Recall Model:
 Threshold       0.300000
 Precision       0.502627
