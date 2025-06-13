@@ -51,7 +51,8 @@ Best params for KNN: {'n_neighbors': 11, 'weights': 'uniform'} | Tuning Time: 5.
 Best params for Gradient Boosting: {'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 50} | Tuning Time: 262.8054s
 
 *Model Default Confusion Matrix results:*
-[Models Confusion Matrix](Models_default_CM.png)
+
+![Models Confusion Matrix](Models_default_CM.png)
 
 Best balanced Pre-tuned model between Recall and False Negatives is KNN.
 
