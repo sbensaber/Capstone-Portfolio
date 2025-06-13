@@ -66,7 +66,7 @@ Tuned KNN Recall: 0.5775
 *Retained Model AUC ROC Curve:*
 I compared the two best recall model retained (KNN) to the best ROC AUC model (Gradient Boosting) to identify the tuning enhancements.
 
-![Retained Model AUC ROC Curve](Tuned_selected_model_ROC_AUC_Curve.png)
+![Retained Model AUC ROC Curve](ROC_AUC.png)
 
 Recall Comparison:
 Best Recall Model (Default) KNN: 0.5749
